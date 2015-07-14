@@ -1,0 +1,590 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Kevin Yee</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Kevin Yee
+					</h1>
+					<h2>
+						Generalist Programmer / Solutionist
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a9c2c2ccdfc0c7d0cccc989ae9cec4c8c0c587cac6c4">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">63 933 525 5284</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href=""></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Kevin is from the Philippines. He has earned the degree BSIT from the University of San Carlos. (Go Carolinians!) He is working as a Mobile Applications Developer at Bibo Global Opportunity. However, his work has been mostly on web development since the company needed more web developers as of the moment. He is now developing a front end test automation framework which he planned and designed the architecture by himself. While having a full time job, he also create games as a hobby and volunteers as a game development speaker in DevCon Cebu. In addition, he has freelance projects such as mobile apps, wordpress and websites. Generally, he is interested in new technologies and solving different kinds of software related problems.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="ph.linkedin.com/in/kkevinyee">Kevin Yee</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Bibo Global Opportunity</span>
+					<span class="date">
+						March 2015 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://bibo.com.ph and http://eikaiwa.dmm.com/">http://bibo.com.ph and http://eikaiwa.dmm.com/</a>
+				</div>
+				<div class="position">
+					Mobile Applications Developer
+				</div>
+				<div class="summary">
+					<p>Bibo Global Opportunity, Inc. is a big, stable and fast growing online language school producing effective speakers and writers of the English language using fun, innovative and interactive ways of language learning.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed and developed a front-end automation testing framework for http://eikaiwa.dmm.com using Capybara, Rspec and Ruby</li>
+					<li class="bullet">Build new features for the website. Most of the work is back-end related</li>
+					<li class="bullet">Fix bugs and investigate issues</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>AZ Technical Laboratory Inc</span>
+					<span class="date">
+						November 2014 — February 2015
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Game Developer
+				</div>
+				<div class="summary">
+					<p>AZTL was a service provider company that focuses on game development. There last operation involved creating mobile games using Unity as a Game Engine. The company ceased there operations last February 2015.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed and developed games and mobile apps </li>
+					<li class="bullet">Creates epics and stories using Trello for Scrum Development </li>
+					<li class="bullet">Became a team leader for 3 projects together with 3 developers</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ideas2Art</span>
+					<span class="date">
+						February 2014 — November 2014
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Development Team Lead
+				</div>
+				<div class="summary">
+					<p>Ideas2Art is an Application Service Provider Company that offers software development for web and mobile.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed and developed games and mobile apps</li>
+					<li class="bullet">Created epics and stories using Jira for Scrum Development</li>
+					<li class="bullet">Allocated tasks to developers and ensuring performance is of a high standard</li>
+					<li class="bullet">Met clients to discuss about the project&#x27;s design, cost and requirements.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>DevCon Philippines - Cebu Chapter</span>
+					<span class="date">
+						April 2014 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://devcon.ph/">http://devcon.ph/</a>
+				</div>
+				<div class="position">
+					Game Development Speaker
+				</div>
+				<div class="summary">
+					<p>Developers Connect Philippines (DevCon) is a non-proﬁt organization which aims to promote the &quot;IT Pinoy Talent&quot; mainly by providing a unique venue for IT students, educators, professionals and enthusiasts to Sync, Support and Succeed.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet"></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of San Carlos</span>
+					<span class="date">
+						June 2009 — March 2013
+					</span>
+				</h4>
+				<div class="area">
+					Information Technology
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Programming Languages</li>
+					<li>Software Engineering</li>
+					<li>Data Structures and Algorithms</li>
+					<li>Object Oriented Programming</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Dean’s Lister</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014-11-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>University of San Carlos</strong>
+				</div>
+				<div class="summary">
+					Was included in the dean&#x27;s list for four semesters
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>General Programming</h4>
+				</div>
+				<ul class="keywords">
+					<li>C#</li>
+					<li>Objective C</li>
+					<li>Java</li>
+					<li>Ruby</li>
+					<li>Swift</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>JQuery</li>
+					<li>Json</li>
+					<li>Ajax</li>
+					<li>Responsive Web Design</li>
+					<li>PHP</li>
+					<li>Web API</li>
+					<li>Ruby on Rails</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Mobile Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>iOS</li>
+					<li>Android</li>
+					<li>XCode</li>
+					<li>Android Studio</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Game Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Unity</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software Tools</h4>
+				</div>
+				<ul class="keywords">
+					<li>Git</li>
+					<li>Visual Studio</li>
+					<li>Microsoft SQL Server Management Studio</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Filipino</strong>
+				</div>
+				<div class="fluency">
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Music</h4>
+				</div>
+				<ul class="keywords">
+					<li>Pop Rock</li>
+					<li>Punk Rock</li>
+					<li>Alternative Rock</li>
+					<li>Pop</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>TV Series</h4>
+				</div>
+				<ul class="keywords">
+					<li>House M.D</li>
+					<li>Sherlock</li>
+					<li>Breaking Bad</li>
+					<li>The Big Bang Theory</li>
+					<li>How I Met Your Mother</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="1a77736969706f74747b5a7d777b737634797577">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></p>
+					<p class="name">
+						<strong>— Junna R. Massey</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="187c796a7b616f77777c202a587f75797174367b7775">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></p>
+					<p class="name">
+						<strong>— Darcy Wood</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
